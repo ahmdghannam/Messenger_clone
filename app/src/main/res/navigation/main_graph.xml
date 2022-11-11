@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_graph"
+    app:startDestination="@id/chatsFragment">
+
+    <fragment
+        android:id="@+id/callsFragment"
+        android:name="fts.ahmed.messenger_clone.ui.fragments.CallsFragment"
+        android:label="CallsFragment"
+        tools:layout="@layout/fragment_calls" />
+    <fragment
+        android:id="@+id/peopleFragment"
+        android:name="fts.ahmed.messenger_clone.ui.fragments.PeopleFragment"
+        android:label="PeopleFragment"
+        tools:layout="@layout/fragment_people" />
+    <fragment
+        android:id="@+id/storiesFragment"
+        android:name="fts.ahmed.messenger_clone.ui.fragments.StoriesFragment"
+        android:label="StoriesFragment"
+        tools:layout="@layout/fragment_stories" />
+    <fragment
+        android:id="@+id/chatsFragment"
+        android:name="fts.ahmed.messenger_clone.ui.fragments.ChatsFragment"
+        android:label="fragment_chats"
+        tools:layout="@layout/fragment_chats" />
+
+
+</navigation>
